@@ -1,0 +1,37 @@
+IGRT tmp0 10 2 
+IGRT tmp1 10 100 
+IADD tmp2 tmp0 tmp1 
+IGRT tmp3 tmp2 0 
+JMPZ 8 tmp3 
+IPRT 7 
+JUMP 9 
+IPRT 8 
+ILSS tmp4 4 2 
+IADD tmp6 13 1 
+IGRT tmp5 tmp6 12 
+IADD tmp7 tmp4 tmp5 
+IGRT tmp8 tmp7 0 
+JMPZ 17 tmp8 
+IPRT 7 
+JUMP 18 
+IPRT 8 
+IGRT tmp9 9 0 
+ILSS tmp10 4 2 
+IADD tmp11 tmp9 tmp10 
+IEQL tmp12 tmp11 2 
+IADD tmp14 12 1 
+IGRT tmp13 tmp14 20 
+IADD tmp15 tmp12 tmp13 
+IGRT tmp16 tmp15 0 
+JMPZ 29 tmp16 
+IPRT 7 
+JUMP 30 
+IPRT 8 
+IGRT tmp17 12 9 
+INQL tmp18 tmp17 1 
+JMPZ 35 tmp18 
+IPRT 7 
+JUMP 36 
+IPRT 8 
+HALT 
+Akthm Daas

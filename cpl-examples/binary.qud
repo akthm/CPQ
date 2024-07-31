@@ -1,0 +1,32 @@
+IASN b 0 
+IEQL tmp0 b 0 
+JMPZ 14 tmp0 
+IINP a 
+IGRT tmp1 a 0 
+IADD tmp3 1000 1 
+ILSS tmp2 a tmp3 
+IADD tmp4 tmp1 tmp2 
+IEQL tmp5 tmp4 2 
+JMPZ 13 tmp5 
+IASN b 1 
+JUMP 13 
+JUMP 2 
+IASN ten 1 
+IASN b 0 
+IGRT tmp6 a 0 
+JMPZ 30 tmp6 
+IDIV tmp7 a 2 
+IMLT tmp8 tmp7 2 
+ISUB tmp9 a tmp8 
+IASN temp tmp9 
+IMLT tmp10 temp ten 
+IADD tmp11 b tmp10 
+IASN b tmp11 
+IMLT tmp12 ten 10 
+IASN ten tmp12 
+IDIV tmp13 a 2 
+IASN a tmp13 
+JUMP 16 
+IPRT b 
+HALT 
+Akthm Daas

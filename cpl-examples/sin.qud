@@ -1,0 +1,41 @@
+RINP in 
+RMLT tmp0 in 3.141590 
+ITOR tmp2 180 
+RDIV tmp1 tmp0 tmp2 
+RASN in tmp1 
+ITOR tmp3 0 
+RASN prevsine tmp3 
+RASN cursine in 
+ITOR tmp4 1 
+RASN loopnum tmp4 
+RASN power in 
+ITOR tmp5 1 
+RASN sign tmp5 
+RLSS tmp6 0.000100 power 
+ITOR tmp8 200 
+RLSS tmp7 loopnum tmp8 
+IADD tmp9 tmp6 tmp7 
+IEQL tmp10 tmp9 2 
+JMPZ 39 tmp10 
+ITOR tmp12 2 
+RADD tmp11 loopnum tmp12 
+RASN loopnum tmp11 
+RMLT tmp13 power in 
+RMLT tmp14 tmp13 in 
+ITOR tmp16 1 
+RSUB tmp15 loopnum tmp16 
+RMLT tmp17 loopnum tmp15 
+RDIV tmp18 tmp14 tmp17 
+RASN power tmp18 
+RASN prevsine cursine 
+ISUB tmp19 0 1 
+ITOR tmp21 tmp19 
+RMLT tmp20 sign tmp21 
+RASN sign tmp20 
+RMLT tmp22 sign power 
+RADD tmp23 cursine tmp22 
+RASN cursine tmp23 
+JUMP 14 
+RPRT cursine 
+HALT 
+Akthm Daas

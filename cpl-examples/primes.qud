@@ -1,0 +1,30 @@
+IPRT 2 
+IPRT 3 
+IASN a 5 
+IADD tmp1 38 1 
+ILSS tmp0 a tmp1 
+JMPZ 29 tmp0 
+IASN b 2 
+IASN stop 1 
+IMLT tmp2 stop a 
+IDIV tmp3 tmp2 2 
+ILSS tmp4 b tmp3 
+JMPZ 22 tmp4 
+IDIV tmp5 a b 
+IMLT tmp6 tmp5 b 
+IEQL tmp7 tmp6 a 
+JMPZ 19 tmp7 
+IASN stop 0 
+JUMP 19 
+IADD tmp8 b 1 
+IASN b tmp8 
+JUMP 9 
+IEQL tmp9 stop 1 
+JMPZ 26 tmp9 
+IPRT a 
+JUMP 26 
+IADD tmp10 a 2 
+IASN a tmp10 
+JUMP 4 
+HALT 
+Akthm Daas

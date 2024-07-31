@@ -1,0 +1,13 @@
+IASN a 0 
+IASN b 1 
+IADD tmp1 1000 1 
+ILSS tmp0 a tmp1 
+JMPZ 12 tmp0 
+IPRT a 
+IADD tmp2 a b 
+IASN c tmp2 
+IASN a b 
+IASN b c 
+JUMP 3 
+HALT 
+Akthm Daas

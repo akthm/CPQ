@@ -1,0 +1,30 @@
+RINP a 
+IINP i 
+ITOR tmp1 i 
+RADD tmp2 a 1.0 
+RGRT tmp0 tmp2 tmp1 
+JMPZ 12 tmp0 
+ITOR tmp4 i 
+RSUB tmp3 a tmp4 
+RASN b tmp3 
+RPRT b 
+JUMP 15 
+ITOR tmp6 i 
+RMLT tmp5 tmp6 a 
+RPRT tmp5 
+RADD tmp7 3.000000 5.800000 
+RTOI tmp8 tmp7 
+IASN i tmp8 
+IPRT i 
+IADD tmp9 3 5 
+IASN i tmp9 
+IPRT i 
+IADD tmp10 3 5 
+ITOR tmp11 tmp10 
+RASN a tmp11 
+RPRT a 
+RADD tmp12 3.000000 5.000000 
+RASN a tmp12 
+RPRT a 
+HALT 
+Akthm Daas

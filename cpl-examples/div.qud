@@ -1,0 +1,14 @@
+IINP first 
+IINP second 
+IASN count 0 
+IADD tmp1 first 1 
+IGRT tmp0 tmp1 second 
+JMPZ 12 tmp0 
+ISUB tmp2 first second 
+IASN first tmp2 
+IADD tmp3 count 1 
+IASN count tmp3 
+JUMP 4 
+IPRT count 
+HALT 
+Akthm Daas

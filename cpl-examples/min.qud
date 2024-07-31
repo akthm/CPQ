@@ -1,0 +1,9 @@
+RINP a 
+RINP b 
+RLSS tmp0 a b 
+JMPZ 7 tmp0 
+RPRT a 
+JUMP 8 
+RPRT b 
+HALT 
+Akthm Daas
